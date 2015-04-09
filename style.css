@@ -1,22 +1,68 @@
-table { border-collapse: collapse; border: solid thick; white-space: nowrap;   margin: 5px; }
+table {
+    border-collapse: collapse;
+    border: solid thick;
+    white-space: nowrap;
+    margin: 5px;
+}
 
-td, th { border: solid thin; height: 1.4em; width: 1.4em; padding:7px;}
+td, th {
+    border: solid thin;
+    height: 1.4em;
+    width: 1.4em;
+    padding: 7px;
+}
 
-td {text-align: left;}
-th {text-align: center;}
+td {
+    text-align: left;
+}
 
-th:first-child {font-style: italic; font-weight: normal; text-align: right;}
+th {
+    text-align: center;
+}
 
-tbody td:nth-of-type(1) {color: red; border-color: black;}
-tbody td:nth-of-type(3) {color: #0000FF; border-color: black;}
-tbody tr:nth-of-type(odd) {background-color: lightgreen}
-tbody tr:nth-of-type(even) {background-color: lightblue}
+th:first-child {
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+}
 
-dt:hover+dd {background-color: purple}
+tbody td:nth-of-type(1) {
+    color: red;
+    border-color: black;
+}
 
-div.outer-content {background-color: pink; width: 75%; margin-top:20px; }
+tbody td:nth-of-type(3) {
+    color: #0000FF;
+    border-color: black;
+}
 
-div.inner-content {background-color: blue; text-align: center; width: 75%; margin: auto}
+tbody tr:nth-of-type(odd) {
+    background-color: lightgreen
+}
 
-img {width: 100px; height: 125px; float: left;}
+tbody tr:nth-of-type(even) {
+    background-color: lightblue
+}
 
+dt:hover+dd {
+    background-color: purple
+}
+
+div.outer-content {
+    background-color: pink;
+    width: 75%;
+    margin-top: 20px;
+}
+
+div.inner-content {
+    background-color: blue;
+    text-align: center;
+    width: 75%;
+    margin: auto
+}
+
+img {
+    width: 100px;
+    height: 125px;
+    float: left;
+}
