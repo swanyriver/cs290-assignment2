@@ -1,4 +1,4 @@
-table { border-collapse: collapse; border: solid thick; }
+table { border-collapse: collapse; border: solid thick;}
 /*th {color: #FF0000}
 /*colgroup, tbody { border: solid medium; }*/
 
@@ -11,6 +11,7 @@ th:first-child {font-style: italic; font-weight: normal;}
 /*tfoot:last-child {font-style: normal;}*/
 
 /*tfoot {font-face: normal;}*/
+tbody td:nth-of-type(1) {color: red; border-color: black;}
 
 
 
