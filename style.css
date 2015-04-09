@@ -1,11 +1,13 @@
-table { border-collapse: collapse; border: solid thick;}
+table { border-collapse: collapse; border: solid thick; white-space: nowrap;   margin: 5; }
 /*th {color: #FF0000}
 /*colgroup, tbody { border: solid medium; }*/
 
-td, th { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding:0; }
+td, th { border: solid thin; height: 1.4em; width: 1.4em; padding:7px;}
 
+td {text-align: left;}
+th {text-align: center;}
 
-th:first-child {font-style: italic; font-weight: normal;}
+th:first-child {font-style: italic; font-weight: normal; text-align: right;}
 
 
 /*tfoot:last-child {font-style: normal;}*/
