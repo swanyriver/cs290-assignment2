@@ -1,6 +1,4 @@
 table { border-collapse: collapse; border: solid thick; white-space: nowrap;   margin: 5; }
-/*th {color: #FF0000}
-/*colgroup, tbody { border: solid medium; }*/
 
 td, th { border: solid thin; height: 1.4em; width: 1.4em; padding:7px;}
 
@@ -9,16 +7,16 @@ th {text-align: center;}
 
 th:first-child {font-style: italic; font-weight: normal; text-align: right;}
 
-
-/*tfoot:last-child {font-style: normal;}*/
-
-/*tfoot {font-face: normal;}*/
 tbody td:nth-of-type(1) {color: red; border-color: black;}
 tbody td:nth-of-type(3) {color: #0000FF; border-color: black;}
 tbody tr:nth-of-type(odd) {background-color: lightgreen}
 tbody tr:nth-of-type(even) {background-color: lightblue}
 
+dt:hover+dd {background-color: purple}
 
+div.outer-content {background-color: pink; width: 75%; margin-top:20px; }
+
+div.inner-content {background-color: blue; text-align: center; width: 75%; margin: auto}
 
 
 
