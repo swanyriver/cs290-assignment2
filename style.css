@@ -4,4 +4,13 @@ table { border-collapse: collapse; border: solid thick; }
 
 td, th { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding:0; }
 
-td:first-child {color: #FF0000; font: italic;}
+
+th:first-child {font-style: italic; font-weight: normal;}
+
+
+/*tfoot:last-child {font-style: normal;}*/
+
+/*tfoot {font-face: normal;}*/
+
+
+
