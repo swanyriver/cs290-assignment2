@@ -1,0 +1,5 @@
+table { border-collapse: collapse; border: solid thick; }
+/*th {color: #FF0000}
+/*colgroup, tbody { border: solid medium; }*/
+
+td, th { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding:0; }
